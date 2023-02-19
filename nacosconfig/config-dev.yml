@@ -4,3 +4,5 @@ server:
 
 user:
   age: 80
+
+age: 80
