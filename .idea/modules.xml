@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SpringCloud01/SpringCloud01.iml" filepath="$PROJECT_DIR$/SpringCloud01/SpringCloud01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nacosconfig/nacosconfig.iml" filepath="$PROJECT_DIR$/nacosconfig/nacosconfig.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-config/spring-cloud-config.iml" filepath="$PROJECT_DIR$/spring-cloud-config/spring-cloud-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/springCloud.iml" filepath="$PROJECT_DIR$/.idea/springCloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/springCloud-14-consumer/springCloud-14-consumer.iml" filepath="$PROJECT_DIR$/springCloud-14-consumer/springCloud-14-consumer.iml" />

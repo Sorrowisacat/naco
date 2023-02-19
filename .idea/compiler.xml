@@ -10,13 +10,14 @@
         <module name="springCloud-14-consumer" />
         <module name="springCloud-14-provider" />
         <module name="springCloud-16-nacos-config" />
-        <module name="springCloudServer" />
         <module name="springCloud0213" />
         <module name="spring-cloud-config" />
+        <module name="springCloudServer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="spring-cloud-config" target="1.8" />
+      <module name="spring-cloud-config-provider" target="1.8" />
       <module name="springCloud-14-consumer" target="1.8" />
       <module name="springCloud-14-provider" target="1.8" />
       <module name="springCloud-16-nacos-config" target="1.8" />
