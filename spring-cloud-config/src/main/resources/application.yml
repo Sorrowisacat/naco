@@ -1,17 +1,24 @@
-server:
-  port: 8000
+#server:
+#  port: 8000
 spring :
   application:
-    name : nacos-config
+    name : config
   cloud :
     config :
       server:
         git:
           uri: https://github.com/Sorrowisacat/nacosd.git
-          serchPaths: springcloud-config	 #远程仓库的文件夹地址
+          serchPaths: nacosconfig	 #远程仓库的文件夹地址
           username: 2874921477@qq.com	 #登录名
           password: hjy040417  #密码
           label: master	         #Git仓库的分支名
+  curl https://raw.githubusercontent.com/username/repository/branch/path/to/file
+  curl https://github.com/2874921477@qq.com/nacosd/master/nacosconfig/config-dev.yml
+  其中，username 是 GitHub 用户名，repository 是仓库名，branch 是分支名，path/to/file 是文件在仓库中的路径。如果能够正常访问，说明连接正常；如果无法访问，说明连接有问题
+  curl https://raw.githubusercontent.com/2874921477@qq.com/nacosd/branch/nacosconfig/config-dev.yml
+  curl https://raw.githubusercontent.com/Sorrowisacat/nacosd/main/nacosconfig/config-dev.yml
 
-
+#    nacos:
+#      config:
+#        file-extension= yml
 
